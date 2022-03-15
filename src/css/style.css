@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    text-align:justify;
+}
+
+.loginDiv{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+}
+
+.loginIcon{
+    background-image: url("../images/Login_icon.jpg");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footerClass{
+    background-color: #F5F5F5;
+    margin: 20px 20px;
+}
+
+.footerContainer{
+    margin: auto;
+}
+
+.customerService{
+  padding-top: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footerCol{
+    width: 20%;
+    padding:  30px 20px;
+    min-width: 250px;
+}
+
+.footerCol h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 500px;
+    position: relative;
+}
+
+.footerColInner{
+    margin-bottom: 30px;
+}
+
+.social{
+    padding: 10px;
+}
+
+.rewardDescription{
+    width: 33%;
+    background-color: #F5F5F5;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.rewardDescriptionHeader{
+    color: #32a893!important;
+    font-weight: bold;
+    font-size: small;
+    padding-bottom: 5px;
+}
+
+.rewardDescriptionSubHeader{
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 5px;
+}
+
+.rewardDescriptionContent{
+    padding-bottom: 25px;
+}
+
+.rewardPicture{
+  padding-top: 20px;
+    width: 33%;
+}
+
+hr{
+  padding-bottom: 5px;
+}
+
+.rewardBlock1{
+    display: flex;
+    flex-wrap: wrap;
+    Justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bannerClass{
+    background-image: url("../images/Welcome_Banner.png");
+    margin: 0px 10%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productPanelContent{
+    display: flex;
+    flex-wrap: wrap;
+    Justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.productHeader{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: #32a893!important;
+    margin-bottom: 10px;
+}
+
+.productCard{
+    width : "150px";
+    border: groove;
+    margin: 5px;
+    margin-bottom: 30px;;
+    border-width: thin;
+    /* border-radius: 10px; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.productName{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+
+.productText{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.productInfo{
+    padding: 5px;
+}
+
+.ProductPanel{
+    width: 78%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.paraHeader{
+    font-weight:600;
+}
+
+.nav {
+    /* height: 50px; */
+    width: 100%;
+    /* background-color: #4d4d4d; */
+    position: relative;
+    padding: 10px 200px 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+    /* padding-left: 5%; */
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 0px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+    Justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav > .nav-links {
+    width: 70%;
+    display: flex;
+    float: right;
+    font-size: 18px;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+
+  .navButtons{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .react-search-field {
+    border-color: black;
+  }
+
+  .react-search-field-button{
+      background-color: #32a893!important;
+  }
+  
+  .iconButton{
+    padding-top: 10px;
+    font-size: x-small;
+    text-align: center;
+    color:white
+  }
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+  .menuBar{
+    padding: 10px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-bottom: 20px; */
+  }
+
+  .menuParagraph{
+    color: #32a893;
+    font-weight: bold;
+  }
+
+  .menuButtonBar{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white
+  }
+
+  .bannerContainer{
+    width: 60%;
+    margin: auto;
+  }
+  
+  @media (max-width:600px) {
+    *{
+      text-align:justify;
+    }
+    .nav{
+        padding: 10px 25px;
+    }
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+
+    .navButtons{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navButton{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+      margin-top: 10px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #32a893;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: auto;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+      z-index: 1;
+    }
+    .react-search-field {
+        width: 100%;
+    }
+    .rewardPicture {
+      width: 80%;
+    }
+    .rewardDescription {
+      width: 80%;
+    }
+
+    .menuButtonBar{
+      width: unset;
+    }
+  }

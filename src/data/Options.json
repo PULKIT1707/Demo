@@ -1,0 +1,11 @@
+[
+    { 
+        "value": "FasHion", 
+        "label": "Fashion" },
+    { 
+        "value": "Electronics", 
+        "label": "Mobile" },
+    { 
+        "value": "Travel", 
+        "label": "Flight" }
+  ]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "My Style",
+        "icon": "fa-solid fa-vest"
+    },
+    {
+        "name": "My Eats",
+        "icon": "fa-solid fa-utensils"
+    },
+    {
+        "name": "My Travel",
+        "icon": "fa-solid fa-suitcase-rolling"
+    },
+    {
+        "name": "My Wellbeing",
+        "icon": "fa-solid fa-hand-holding-medical"
+    },
+    {
+        "name": "My Tech",
+        "icon": "fa-solid fa-laptop"
+    }
+]
